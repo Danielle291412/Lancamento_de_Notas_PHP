@@ -15,15 +15,20 @@ echo "<br>";
 echo "Sua média é: " . $media;
 
 if ($media > 5) {
-
+    
+    echo "<br>";
     echo "Aprovado";
 }
 
 elseif ($media == 5) {
+    
+    echo "<br>";
     echo "Reprovado";
 }
 
 else{
+    
+    echo "<br>";
     echo "Recuperação";
 }
 ?>
